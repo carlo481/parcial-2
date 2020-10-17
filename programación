@@ -1,0 +1,287 @@
+/* Carlos Alexander Arreaza Giron Carne: 2000084
+ * Serie 
+2. Número  
+3. Fecha 
+4. Nombre  
+5. Dirección  
+6. Nit 
+7. Total 
+Detalle 
+1. Cantidad 
+2. Descripción 
+3. Valor 
+
+ */ 
+ * 
+ * 
+package uspg.edu;
+
+/**
+ *
+ * @author carlos
+ */
+public class parcial {
+    
+    int id;
+    String nombre;
+    double serie;
+    double direccion;
+    double fecha;
+    double Nit;
+    double total;
+    
+    Parcial(){}
+    
+    Parcial(int id, String nombre, double serie, 
+            double Nombre, double fecha, 
+            double Nit){
+    
+        this.id = id;
+        this.nombre = nombre;
+        this.serie = serie;
+        this.direccion = direccion;
+        this.fecha = fecha;
+        this.Nit = Nit;
+        this.total = serie+Nombre+direccion+fecha;  
+    }
+
+    public int getId() {
+        return id;
+    }
+
+    public void setId(int id) {
+        this.id = id;
+    }
+
+    public String getNombre() {
+        return nombre;
+    }
+
+    public void setNombre(String nombre) {
+        this.nombre = nombre;
+    }
+
+    public double getParcialUno() {
+        return serie;
+    }
+
+    public void setserie(double serie) {
+        this.Nombre = Nombre;
+        actualizarTotal();
+    }
+
+    public double Nombre() {
+        return Nombre;
+    }
+
+    public void setserie(double serie) {
+        this.serie = serie;
+        actualizarTotal();
+    }
+
+    public double getdireccion() {
+        return direccion;
+    }
+
+    public void setdireccion(double direcccion) {
+        this.direccion = direccion;
+        actualizarTotal();
+    }
+
+    public double getfecha() {
+        return fecha;
+    }
+
+    public void setfecha(double fecha) {
+        this.fecha = fecha;
+        actualizarTotal();
+    }
+
+    public double getTotal() {
+        return total;
+    }
+
+    public void setTotal(double total) {
+        this.total = total;
+    }
+    
+    public void actualizarTotal(){
+        setTotal(serie+nombre+direccion+fecha);  
+    }
+    
+}
+
+
+Anuncio: "clase principal parcial, para captura de…"
+Carlos Alexander Arreaza Giron
+Fecha de creación: 3 oct.3 oct.
+clase principal parcial, para captura de registro
+
+package uspg.edu;
+
+import java.util.ArrayList;
+import java.util.List;
+import java.util.Scanner;
+
+/**
+ *
+ * @author carlos
+ */
+public class parcial {
+
+    public static void main(String[] args) {
+        
+        Scanner sc = new Scanner(System.in);
+        List<parcial> listparcial = new ArrayList();
+        
+        int id;
+        String nombre;
+        double serie;
+        double direccion;
+        double numero;
+        double fecha;
+        double total;
+        char ingresaRegistro = 'n';
+        
+        do{
+        
+            System.out.println("ingresar los siguientes registros:");
+            System.out.print("Id:");
+            id = sc.nextInt();
+            System.out.print("nombre:");
+            nombre = sc.next();
+            System.out.print("parcial uno:");
+            nombre = sc.nextDouble();
+            System.out.print("direccion:");
+            direccion = sc.nextDouble();
+            System.out.print("nombre:");
+            nombre = sc.nextDouble();
+            System.out.print("fecha:");
+            fecha = sc.nextDouble();
+            
+            listregistro.add(new Alumno(id,
+                    nombre,
+                    serie,
+                    direccion,
+                    nimero,
+                    fecha));
+        
+            System.out.println("desa ingresar un nuevo registro? s/n");
+            ingresaRegistro = sc.next().charAt(0);
+        }while(ingresaRegistro == 's');
+        
+        System.out.println("Id\tNombre\tserie\tdireccion\tnumero\tFecha\tTotal");
+        for(Nombre nombre: listregistro){
+                        
+            System.out.println(alumno.getId() + 
+                    "\t" + alumno.getNombre() + 
+                    "\t" + alumno.getserie() +
+                    "\t\t" + alumno.getdireccion() +
+                    "\t\t" + alumno.getnumero() + 
+                    "\t" + alumno.gefecha() +
+                    "\t" + alumno.getTotal());
+        }
+        
+         for(Nombre nombre: listparcial){
+            
+            alumno.setserie(0);
+            
+            System.out.println(alumno.getId() + 
+                    "\t" + alumno.getNombre() + 
+                    "\t" + alumno.getserie() +
+                    "\t\t" + alumno.getdireccion() +
+                    "\t\t" + alumno.getnumero() + 
+                    "\t" + alumno.getfecha() +
+                    "\t" + alumno.getTotal());
+        }
+        
+    }
+    
+} long cantidad_descripcion = System.nanocantidad();
+       
+       StringBuilder builder = new StringBuilder();
+       
+       for(int i = 0; i < 3000; i++){
+           builder.append(i);
+       
+       }
+        
+       long cantidad_fin = System.nanocantidad();
+       
+       double descripcion = cantidad_fin - descripcion_cantidad;
+       
+        System.out.println(descripcion);
+        
+        
+       long cantidad_inicio2 = System.nano cantidad(); 
+          
+       String Mostrar = "";
+       
+       for ( int i = 0; i < 2000; i++){
+           Grabar += i;
+       }
+       
+       long valor_fin3 = System.nanovalor();
+       
+        double cantidad3= valor_fin2 - cantidad_inicio3;
+       
+        System.out.println(diferencia2);
+        
+    }public class datos {
+
+    Scanner sc = new Scanner(System.in);
+    
+    /**
+     * @param args the command line arguments
+     */
+    public static void main(String[] args) {
+        
+        Persona per1 = new Persona();
+        per1.setCuenta(1);
+        per1.setcantidad("2000");
+        per1.setvalor(3000);
+        
+        cantidad = new cantidad();
+        per2.setcantidad(2);
+        per2.setdescripcion("perro");
+        per2.set(3000);
+        
+    descripcion = new descripcion();
+        per3.setCantidad(3);
+        per3.setdescripcion("perro raza pitbull");
+        per3.setvalor(1500);
+        
+        String 	grabar;
+        Double mostrar;
+        int cantidad;
+        
+        Scanner sc = new Scanner(System.in);
+        
+        System.out.println("Bienvenido, ingrese la cantidad deseada");
+        //cantidad = sc.nextInt();
+        cantidad = sc.nextInt();
+        
+        switch(cantidad){
+            case 1:
+                cantidad(per1);
+                System.out.println("Saldo de T.V");
+                System.out.println(per1.getdescripcion() + " " + per1.getvalor());
+                System.out.println(per2.getdescripcion() + " " + per2.getvalor());
+                System.out.println(per3.getdescripcion() + " " + per3.getvalor());
+                break;
+            
+            case 2:
+                cantidad(valor);
+                break;
+                
+            case 3:
+               cantidad(valor);
+                break;
+            default:
+                System.out.println("cantidad no registrada");
+                System.exit(0);
+        
+        }
+        
+        
+    }
